@@ -12,3 +12,6 @@ print(mm)                          # op => ['Alice', 58, ['Math', 'CS']]
 oo = tuple(student.keys())
 print(oo)                           # ('name', 'age', 'courses')
 
+
+pp = list(student.items())
+print(pp)                           # [('name', 'Alice'), ('age', 58), ('courses', ['Math', 'CS'])]

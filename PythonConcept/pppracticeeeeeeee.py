@@ -1,14 +1,9 @@
-data = [10, 10, 15, 15, 25, 33, 33, 42, 47, 51, 60, 60, 73, 88, 90, 99]
+n1 = 0
+n2 = 1
 
+# count = int(input("How many numbers do you want to print? "))
 
-unique_items = set()  # 
-duplicates = []       #10
+a = [1,2,3,4,7,8,5,1,5,7,7,77,20]
 
-for num in data:
-    if num in unique_items:
-        if num not in duplicates:
-            duplicates.append(num)
-    else:
-        unique_items.add(num)
-
-print(f"Duplicate values are: {duplicates}")
+d = a.count(7)
+print(d)
